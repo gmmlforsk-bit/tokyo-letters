@@ -1,0 +1,5 @@
+假名单音和行内词例使用 Open JTalk 合成示范。首组听读和词例使用 HTS Voice “Mei” 1.5（MMDAgent Project Team，© 2009–2018 Nagoya Institute of Technology）。换声测验用 HTS Voice “NIT ATR503 M001” 1.05（HTS Working Group，© 2003–2012 Nagoya Institute of Technology、© 2003–2008 Tokyo Institute of Technology）。两种声库均按 CC BY 3.0 提供。本组音频由这些声库合成，并调整首尾静音与音量、转换为 AAC；本组音频按 CC BY 3.0 提供。
+许可证 https://creativecommons.org/licenses/by/3.0/
+Open JTalk / NIT ATR503 M001 https://open-jtalk.sourceforge.net/readme_hts_voice_nitech_jp_atr503_m001.php
+MMDAgent / Mei https://www.mmdagent.jp/
+Mei 1.5 原始声库与版权声明 https://sourceforge.net/projects/mmdagent/files/MMDAgent_Example/MMDAgent_Example-1.8/

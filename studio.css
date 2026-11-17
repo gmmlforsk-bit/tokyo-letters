@@ -1,0 +1,52 @@
+:root{--pine:#102920;--pine2:#18382d;--frost:#f1efe4;--brass:#c9ba92;--wine:#451d2a}
+.studio-front{background:var(--pine);color:var(--frost)}
+.studio-front .site-header,.studio-front .site-footer{background:#102920;color:var(--frost);border-color:#44594b}
+.studio-front .site-header nav a,.studio-front .brand small,.studio-front .site-footer>div{color:#c8d4c8}
+.studio-front .site-header nav a.active{color:white}.studio-front .site-header nav a.active:after{background:var(--brass)}
+.studio-front .site-header .icon-button,.studio-front .review-link span{border-color:#657b6b}
+.studio-front .site-header .icon-button:hover,.studio-front .site-header.menu-open nav{background:#244233}
+.studio-front .site-header .brand-symbol,.studio-front .site-footer .brand-symbol{border:1px solid #5c7260}
+.brand-symbol{border-radius:10px}.brand small{letter-spacing:.15em}
+.studio-home{color:var(--frost);background:var(--pine);--mild:#bac9bb}
+.opening{border-bottom:1px solid #455a49;background:#102920;position:relative;overflow:hidden}
+.opening-inner,.studio-body{max-width:1460px;padding-inline:clamp(22px,6vw,90px);margin:auto}
+.opening-inner{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(22px,5vw,80px);align-items:center;padding-block:clamp(32px,4.4vw,70px)}
+.studio-kicker,.lesson-eyeline{font:600 12px/1.55 var(--sans);letter-spacing:.12em;color:var(--brass)}
+.opening h1{font:500 clamp(40px,4.15vw,70px)/1.16 var(--serif);letter-spacing:.015em;margin:15px 0}
+.opening h1 span{display:inline-flex;align-items:center;font-family:"Hiragino Mincho ProN",var(--serif);font-size:1.3em}.opening h1 i{font-size:.53em;font-style:normal;color:#c6d3bf;margin:0 5px}
+.opening-desc{font-size:15px;line-height:1.9;color:#cad5c9;margin-bottom:24px}.ivory-action,.coach-primary,.coach-secondary,.pill-action{min-height:46px;border-radius:5px;padding:11px 18px;display:inline-flex;gap:10px;align-items:center;justify-content:center;font-size:14px;font-weight:600}
+.ivory-action,.coach-primary{background:#f0eee0;color:#163126}.ivory-action:hover,.coach-primary:hover{background:#fffdf1}
+.ivory-action span{font-size:18px}.small-focus{color:#dae1d3;display:inline-block;margin:12px 14px;font-size:13px;border-bottom:1px solid #778b76}
+.opening-art{position:relative;margin:0;padding:13px 13px 0 0;background:repeating-linear-gradient(135deg,#bdad832b 0 1px,transparent 1px 7px);border-radius:2px 36px 0 0}
+.opening-art img{width:100%;height:clamp(250px,25vw,390px);object-fit:cover;object-position:50% 54%;border-radius:2px 27px 0 0}
+.opening-art figcaption{background:var(--pine);font:11px/1.6 var(--serif);padding-top:8px;text-align:right;color:#b6c3b6;letter-spacing:.1em}
+.studio-body{padding-block:30px 58px}.studio-home .resume-banner{background:#284c3c;color:#f3f5e9;margin-bottom:22px}.studio-home .resume-banner button{color:inherit}
+.cafe-table{display:grid;grid-template-columns:34% 1fr;border:1px solid #47604e;border-radius:7px;overflow:hidden;background:#19392e}
+.cafe-cover{position:relative;isolation:isolate;overflow:hidden;min-height:245px}.cafe-cover img{position:absolute;width:100%;height:100%;object-fit:cover;z-index:-2}.cafe-cover:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#101f18dc,transparent 95%);z-index:-1}
+.cafe-cover>div{position:absolute;inset:auto 20px 18px;color:#fff9ed}.cafe-cover small{font-size:11px;letter-spacing:.15em}.cafe-cover h2,.studio-heading h2,.wine-feature h2{font:500 clamp(27px,2.6vw,41px)/1.27 var(--serif);margin:7px 0 0}
+.cafe-copy{padding:clamp(18px,2.8vw,36px)}.dialog-sample{display:flex;gap:16px;align-items:center;padding:11px 0;border-bottom:1px solid #486051}
+.dialog-sample>span{font-size:12px;color:#b8c8b8;width:28px}.dialog-sample>div{flex:1}.dialog-sample b{font:500 clamp(18px,1.55vw,24px)/1.5 "Hiragino Mincho ProN",var(--serif)}.dialog-sample small{display:block;font-size:12px;color:#b8c8b8}
+.dialog-sample button{border:1px solid #758878;border-radius:50%;height:40px;width:40px;color:#f2f0dc;font-size:19px}.cafe-actions{display:flex;gap:18px;flex-wrap:wrap;margin-top:13px}.cafe-actions button,.pill-action{color:#f2efde;border-bottom:1px solid #a6b099;padding:4px 0;font-size:13px}.cafe-caption{margin-top:8px;color:#c4d3bf;font-size:12px;min-height:20px}
+.studio-heading{display:flex;justify-content:space-between;align-items:end;gap:10px;margin:41px 0 20px}.studio-heading>a{color:#d7ddcc;border-bottom:1px solid #8a9b87;font-size:13px}
+.studio-home .goal-card{background:#17372c;border-color:#435d4b;color:var(--frost)}.studio-home .goal-copy p,.desk-item span{color:#b9c8ba}.studio-home .goal-foot{border-color:#425e4a}.current-path{margin:18px 0;display:flex;align-items:center;justify-content:space-between;color:#ccd6c8}
+.study-desk{display:grid;grid-template-columns:1.15fr 1fr;gap:18px;margin-top:24px}.wine-feature,.desk-tools{padding:clamp(20px,3.3vw,45px);border-radius:6px;min-width:0}
+.wine-feature{background:repeating-radial-gradient(ellipse at 120% 120%,transparent 0 12px,#b69d7715 13px 14px,transparent 15px 30px),var(--wine);color:#fbf0e8;display:grid;align-items:center}
+.wine-feature p[lang]{margin:12px 0;color:#e7ccc9;font-family:var(--serif)}.wine-feature strong{font-size:13px;border-bottom:1px solid #b49b94}.desk-tools{background:#19372d}.desk-tools h2{font:500 25px/1.5 var(--serif);margin-bottom:8px}.desk-item{display:flex;width:100%;justify-content:space-between;text-align:left;padding:9px 0;color:#eef0e1;border-bottom:1px solid #465b4b;font-size:14px}.desk-item span{font-size:12px}
+.kana-start{display:grid;grid-template-columns:1fr 1fr;gap:24px;padding:30px;background:var(--pine);color:var(--frost);border-radius:6px;margin:18px 0 22px}.kana-start h2{font:500 30px/1.5 var(--serif)}.kana-start p:not(.studio-kicker){color:#ccd7c9;font-size:14px;margin:6px 0 14px}
+.kana-sequence{display:grid;grid-template-columns:1fr 1fr;gap:6px;align-content:center}.kana-sequence a{display:flex;align-items:center;gap:10px;justify-content:space-between;padding:7px 10px;border:1px solid #536b58;border-radius:4px}.kana-sequence small{color:#bac9b6;font-size:11px}.kana-sequence b{font:500 16px/1.5 var(--serif)}
+.coach-shell{max-width:820px;margin:auto;padding:25px 22px 50px;color:var(--frost)}
+.coach-nav,.part-nav{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;color:#c4d1c1;font-size:13px}
+.coach-card{background:var(--pine2);border:1px solid #4b6350;border-radius:9px;margin:15px 0;padding:clamp(22px,4vw,52px);min-height:370px}
+.coach-card h1{font:500 clamp(30px,4vw,48px)/1.3 var(--serif);margin:14px 0 12px}.coach-card>p:not(.lesson-eyeline){line-height:1.8;color:#d5dfd2}
+.coach-actions{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-top:15px}.coach-secondary,.part-nav a{border:1px solid #809483;color:#edf0e5}
+.coach-note,.coach-status{font-size:13px;color:#c3d3c1;margin-top:12px}.coach-status{min-height:22px;color:#ddd5ad}
+.coach-meter{height:3px;background:#455f4e;margin:12px 0 21px}.coach-meter span{height:100%;display:block;background:#d0c8a4}
+.big-sound{font:500 clamp(54px,8vw,96px)/1.4 "Hiragino Mincho ProN",var(--serif);margin:8px 0 12px;letter-spacing:.05em}
+.listen-disc{margin:22px 0 8px}.sound-options{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.sound-option{font:500 29px/1.5 var(--serif);padding:6px 16px;min-width:62px;border:1px solid #9aac96;color:#f3f3e6;border-radius:4px}
+.answer-hold{margin-top:12px;padding:12px;border:1px dashed #718673;border-radius:5px;color:#b9cbba;font-size:13px}
+.sound-feedback{border-top:1px solid #56715a;padding-top:12px;margin-top:16px}.part-nav{justify-content:start}.part-nav a{padding:7px 12px;border-radius:20px}.part-nav a[aria-current]{background:#d3dfc4;color:var(--pine)}
+@media(max-width:720px){.opening-inner{gap:19px}.opening h1{font-size:37px}.cafe-table{grid-template-columns:30% 1fr}.kana-start{grid-template-columns:1fr}.opening-art img{height:242px}}
+@media(max-width:600px){.opening-inner{display:block;padding:24px 20px 15px}.opening h1{font-size:34px;margin:9px 0}.opening h1 br{display:none}.opening h1 span:first-of-type{margin-left:7px}.opening-desc{font-size:13px;margin-bottom:12px}.opening-desc br{display:none}.opening-art{margin-top:18px;padding:7px 7px 0 0}.opening-art img{height:145px}.opening-art figcaption{padding-top:3px;font-size:9px}.studio-body{padding:16px 18px 35px}.cafe-table{grid-template-columns:1fr}.cafe-cover{min-height:100px}.cafe-cover img{object-position:50% 50%}.cafe-cover>div{inset:auto 14px 11px}.cafe-cover h2{font-size:24px;margin:2px 0}.cafe-cover h2 br{display:none}.cafe-copy{padding:15px}.dialog-sample{gap:7px;padding:8px 0}.dialog-sample b{font-size:17px}.studio-heading{margin:25px 0 13px}.study-desk{grid-template-columns:1fr}.kana-start{padding:18px;gap:12px}.kana-sequence{grid-template-columns:1fr}.coach-shell{padding:16px 14px 30px}.coach-card{padding:20px 16px;min-height:350px}.coach-actions{gap:8px}.coach-primary,.coach-secondary{padding:10px 13px}.opening .small-focus{margin-left:10px}.studio-front .site-footer a{color:var(--frost)}}
+.mouth-notes{border-top:1px solid #47604c;margin-top:23px;padding-top:10px;color:#c8d8c9}.mouth-notes summary{cursor:pointer;font-size:13px}.mouth-notes p{font-size:14px;margin:9px 0}.mouth-notes b{font:600 22px var(--serif);color:var(--frost)}
+
+.brand-symbol,.studio-front .site-header .brand-symbol,.studio-front .site-footer .brand-symbol{border-radius:0;border:0}
