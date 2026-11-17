@@ -1,0 +1,36 @@
+:root {--paper:#f7f7f2;--ink:#202f29}
+.site-header nav svg,.site-header nav .phone-review {display:none}
+.lesson-cover {display:grid;grid-template-columns: .85fr 1.15fr;background:#20372f;color:#faf9ef;overflow:hidden;border-radius:6px}
+.street-photo {grid-column:2;grid-row:1;margin:0;min-height:clamp(295px,25vw,390px);position:relative;background:#5e6157 url("./assets/yasaka-dori.webp") 50% 19% / cover no-repeat}
+.street-photo figcaption {position:absolute;bottom:12px;right:14px;color:#fff;background:#19241ed9;border-radius:3px;padding:3px 8px;font-size:11px;letter-spacing:.08em}
+.lesson-intro {grid-column:1;grid-row:1;align-self:center;padding:clamp(24px,3.4vw,54px)}
+.lesson-category {color:#c3d5c4;font-weight:600;font-size:13px;letter-spacing:.09em}
+.lesson-intro h1 {font:500 clamp(34px,3.6vw,57px)/1.3 var(--serif);text-wrap:balance;margin:12px 0}
+.lesson-purpose {color:#e3e9dd;line-height:1.7;font-size:15px;margin-bottom:23px}
+.lesson-intro .post-action {color:#1c352a;background:#f7f6e9;border-radius:5px;min-height:46px}
+.unit-index {margin:30px 0 16px}.index-top {display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.index-top h2 {font:500 25px/1.4 var(--serif)}.index-top>span,.index-link small {color:var(--muted);font-size:12px}
+.unit-list {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:12px;border-block:1px solid #bdc6bc}
+.index-link {display:flex;align-items:center;gap:14px;padding:14px 18px;width:100%;text-align:left;border-right:1px solid var(--line)}
+.index-link:last-child {border:0}.index-link strong,.index-link small {display:block}.index-link strong {font-size:16px}
+.unit-index-number {font:22px Georgia,serif;color:#865742}.index-link>span:last-child {margin-left:auto}
+.index-link:hover {background:#eaf0e9}.review-today {display:block;color:var(--forest);padding:10px 0;font-weight:600}
+@media(max-width:650px) {
+ body {padding-bottom:calc(65px + env(safe-area-inset-bottom))}
+ .site-header,.studio-front .site-header {height:56px;display:flex;padding:0 18px;justify-content:space-between;background:var(--paper)}
+ .site-header .header-actions .review-link {display:none}
+ .site-header nav {position:fixed;inset:auto 0 0;height:auto;background:#fafbf8;display:grid;grid-template-columns:repeat(4,1fr);gap:0;padding:5px 8px calc(5px + env(safe-area-inset-bottom));border-top:1px solid var(--line)}
+ .site-header nav a,.studio-front .site-header nav a,.site-header nav .phone-review {display:flex;align-items:center;flex-direction:column;gap:1px;padding:4px 0;font:500 11px/1.6 var(--sans)}
+ .site-header nav svg {display:block;width:21px;height:21px}.site-header nav a.active:after {display:none}.site-header nav .active svg {background:#e1eadd;border-radius:5px;color:#254f3c}
+ .dispatch-inner {padding:0 18px 32px}
+ .lesson-cover {display:flex;flex-direction:column;margin-inline:-18px;border-radius:0;background:var(--paper);color:var(--ink)}
+ .street-photo {width:100%;height:clamp(160px,48vw,230px);min-height:0;background-position:50% 10%}
+ .lesson-intro {width:100%;padding:19px 20px 21px;border-bottom:1px solid var(--line)}
+ .lesson-category {color:#835644;font-size:12px}.lesson-intro h1 {margin:5px 0;font-size:32px}
+ .lesson-purpose {color:var(--muted);margin-bottom:14px;font-size:14px}.lesson-intro .post-action {width:100%;background:#24493b;color:white;min-height:47px}
+ .unit-index {margin:19px 0}.index-top h2 {font-size:22px}.unit-list {display:block;border-top:0;margin-top:4px}
+ .index-link,.index-link:last-child {padding:10px 2px;border:0;border-top:1px solid var(--line);min-height:51px}
+ .index-link>span:nth-child(2) {display:flex;flex-direction:row-reverse;align-items:baseline;gap:10px}.index-link strong {font-size:14px}.unit-index-number {font-size:16px}
+ .home-library .book-rack {display:flex;overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:8px}
+ .home-library .shelf-book {flex:0 0 39%;scroll-snap-align:start}
+}
