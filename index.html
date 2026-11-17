@@ -17,8 +17,15 @@
  <footer class="site-footer"><a class="brand footer-brand" href="#home"><img src="./icon.svg" class="brand-symbol" width="44" height="44" alt=""><span>东京来信<small>日语听说读写</small></span></a><div><a href="#journal">学习记录</a><a href="#settings">学习偏好与备份</a><a href="#credits">画作与制作手记</a><span></span></div></footer>
  <dialog id="study" aria-labelledby="study-title"><div id="study-content"></div></dialog>
  <dialog id="detail" aria-labelledby="detail-title"><div id="detail-content"></div></dialog>
+ <dialog id="pause-listen" aria-labelledby="pause-title"><div class="voice-sheet"><h2 id="pause-title">暂停这组听读？</h2><p>进度已保存。下次在首页点「继续听读」，就能接着练。</p><div class="voice-actions"><button data-continue-listen>继续练习</button><button data-save-listen>退出到首页</button></div></div></dialog>
+ <dialog id="pronunciation" aria-labelledby="pronunciation-title"><div class="voice-sheet">
+ <header><h2 id="pronunciation-title">听音与跟读</h2><button data-close-audio aria-label="关闭跟读面板">完成</button></header>
+ <p lang="ja" data-phrase></p><p lang="ja" data-reading></p>
+ <audio controls preload="none" aria-label="日语示范音频"></audio>
+ <p role="status" aria-live="polite"></p><div class="voice-actions"><label>语速 <select><option value="0.7">慢速</option><option value="0.85">适中</option><option value="1">原速</option></select></label><button data-replay>再听一遍</button></div>
+ <a target="_blank" rel="noopener">单独打开音频 ↗</a></div></dialog>
  <div id="toast" role="status" aria-live="polite"></div>
  <input id="backup-file" type="file" accept="application/json,.json" hidden>
- <script type="module" src="./learn-fda94ad7ed6f.js"></script>
+ <script type="module" src="./learn-8c89e2c12351.js"></script>
 </body>
 </html>

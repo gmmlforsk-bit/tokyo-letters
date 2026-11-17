@@ -140,3 +140,13 @@ summary {cursor:pointer}.ink-link {display:inline-block;border-bottom:1px solid 
  .sound-options {display:grid;grid-template-columns:1fr 1fr}.sound-option {min-height:62px}.listen-disc button {width:100%}
  .coach-meter {height:6px;border-radius:9px;overflow:hidden}
 }
+#pronunciation {width:min(94vw,460px);border:0;border-radius:14px;background:#fafbf7;color:#203a30;max-height:85dvh;padding:0}
+#pronunciation::backdrop {background:#10271ec2}
+.voice-sheet {padding:22px}.voice-sheet header,.voice-actions {display:flex;align-items:center;justify-content:space-between;gap:15px}
+.voice-sheet h2 {font:600 18px var(--sans)}.voice-sheet header button {padding:10px;color:#375f4e}
+.voice-sheet [data-phrase] {font:500 25px/1.65 var(--serif);margin:20px 0 4px;overflow-wrap:anywhere}
+.voice-sheet [data-reading],.voice-sheet [role=status] {font-size:14px;color:#496254}
+.voice-sheet audio {width:100%;margin:20px 0 7px}
+.voice-actions {margin:18px 0}.voice-actions select,.voice-actions button {min-height:44px;padding:7px 14px;border:1px solid #aebfaf;border-radius:6px}
+.voice-actions button {background:#214d3c;color:white}.voice-sheet>a {font-size:13px;text-decoration:underline}
+@media(max-width:650px){#pronunciation {margin:auto 0 0;width:100%;max-width:100%;border-radius:18px 18px 0 0}.voice-sheet {padding-bottom:max(22px,env(safe-area-inset-bottom))}}
